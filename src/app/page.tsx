@@ -33,7 +33,7 @@ export default function Home() {
     const onLogin=()=>{
         authClient.signIn.email({
             email,
-            name,
+
             password
         },{
             onError:()=>{
